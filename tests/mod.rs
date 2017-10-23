@@ -273,3 +273,9 @@ pub fn sass_custom_config() {
 pub fn data_files() {
     run_test("data_files").expect("Build error");
 }
+
+
+#[test]
+pub fn broken_files() {
+    run_test("broken_files").expect("Build error");
+}
